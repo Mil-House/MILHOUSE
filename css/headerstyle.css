@@ -168,14 +168,14 @@ header {
     width: 1.6rem;
     height: 4.4rem;
     /*background: url("/img/search.svg") center no-repeat;*/
-    background: url("/img/translate2.png") center no-repeat;
+    background: url("https://Mil-House.github.io/MilHouse/img/translate2.png") center no-repeat;
     cursor: pointer;
 }
 
 .nav-link-bag {
     width: 1.4rem;
     height: 4.4rem;
-    background: url("/img/shop.png") center no-repeat;
+    background: url("https://Mil-House.github.io/MilHouse/img/shop.png") center no-repeat;
     cursor: pointer;
 }
 
@@ -546,7 +546,7 @@ header {
     /*============ Mobile bag Menu (Start) ============*/
 
     .nav-link-bag {
-        background: url("/img/bag.svg") center no-repeat;
+        background: url("https://Mil-House.github.io/MilHouse/img/bag.svg") center no-repeat;
     }
 
     .operation .minibagmenu {
