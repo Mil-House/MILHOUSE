@@ -462,6 +462,7 @@ body {
 #image-comparison-slider img {
     display: block;
     width: var(--image-comparison-slider-width);
+    border-radius: 0.5rem;
     height: auto;
     max-height: 80vh;
     object-fit: cover;
