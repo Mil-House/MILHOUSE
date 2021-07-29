@@ -666,15 +666,15 @@ header {
 @media screen and (max-width: 735px)
 {
     .milhouse-banner {
-        background: url("/img/iphone_11_pro_small.jpg");
+        background: url("https://Mil-House.github.io/MilHouse/img/iphone_11_pro_small.jpg");
     }
 
     .milhouse {
-        background: url("/img/iphone_11_small.jpg");
+        background: url("https://Mil-House.github.io/MilHouse/img/iphone_11_small.jpg");
     }
 
     .watch {
-        background: url("/img/watch_small.jpg");
+        background: url("https://Mil-House.github.io/MilHouse/img/watch_small.jpg");
     }
 }
 
