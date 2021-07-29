@@ -325,14 +325,12 @@ header {
         }
     }
     
-
+/*
     .nav-item .logo-mobile .fa-home {
-        text-transform: uppercase; 
-        font-size: 1.9rem; /*2.9rem  for Logo 1*/
+        font-size: 1.9rem; /*2.9rem  for Logo 1*//*
         font-weight: 500;
-        -webkit-background-clip: text;
-        background-clip: text;
     }
+*/
 
     .nav-item-hidden {
         display: none;
