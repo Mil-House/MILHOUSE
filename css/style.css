@@ -484,7 +484,6 @@ body {
 }
   
 #image-comparison-slider .img-wrapper img {
-    border-radius: 0.5rem;
     position: absolute;
     top: 0;
     right: 0;
