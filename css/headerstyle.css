@@ -310,8 +310,8 @@ header {
         text-transform: uppercase; 
         background-image: linear-gradient(to right, rgb(132, 0, 255), #fff, #fff, gold, rgb(255, 0, 0));
         -webkit-background-clip: text; 
-        /*background-clip: text;
-        color: transparent;*/
+        background-clip: text;
+        color: transparent;
   
         background-size: 400%;
         background-position: -100%;  
