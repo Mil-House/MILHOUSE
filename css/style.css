@@ -514,7 +514,6 @@ body {
 }
   
 #image-comparison-slider .label.label-before {
-    border-radius: 0.5rem;
     left: 1rem;
     font-size: 1.4rem;
 }
@@ -523,7 +522,6 @@ body {
     right: 1rem;
     background-color: #f95540;
     font-size: 1.4rem;
-    border-radius: 0.5rem;
 }
   
 #image-comparison-slider .handle {
