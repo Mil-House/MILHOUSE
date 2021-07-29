@@ -492,7 +492,6 @@ body {
 }
 
 #image-comparison-slider .label {
-    border-radius: 0.5rem;
     position: absolute;
     top: 1rem;
     z-index: 3;
