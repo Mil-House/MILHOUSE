@@ -328,7 +328,7 @@ header {
 
     .nav-item .logo-mobile .fa-home {
         font-size: 1.9rem; /*2.9rem  for Logo 1*/
-        font-weight: 500;
+        font-weight: 800; /* 500 */
     }
 
     .nav-item-hidden {
