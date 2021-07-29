@@ -509,7 +509,6 @@ body {
 }
   
 #image-comparison-slider:hover .label {
-    border-radius: 0.5rem;
     opacity: 1;
 }
   
