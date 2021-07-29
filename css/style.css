@@ -471,6 +471,7 @@ body {
   
 #image-comparison-slider .img-wrapper {
     position: absolute;
+    border-radius: 0.5rem;
     top: 0;
     right: 0;
     width: 50%;
@@ -483,6 +484,7 @@ body {
 }
   
 #image-comparison-slider .img-wrapper img {
+    border-radius: 0.5rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -490,6 +492,7 @@ body {
 }
 
 #image-comparison-slider .label {
+    border-radius: 0.5rem;
     position: absolute;
     top: 1rem;
     z-index: 3;
@@ -506,10 +509,12 @@ body {
 }
   
 #image-comparison-slider:hover .label {
+    border-radius: 0.5rem;
     opacity: 1;
 }
   
 #image-comparison-slider .label.label-before {
+    border-radius: 0.5rem;
     left: 1rem;
     font-size: 1.4rem;
 }
@@ -518,6 +523,7 @@ body {
     right: 1rem;
     background-color: #f95540;
     font-size: 1.4rem;
+    border-radius: 0.5rem;
 }
   
 #image-comparison-slider .handle {
