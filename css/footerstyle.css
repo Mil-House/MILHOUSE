@@ -22,8 +22,6 @@ body {
 
 footer {
     position: relative;
-    bottom: 0; /*Aded 10.01.2022*/
-    left: 0; /*Aded 10.01.2022*/
     width: 100%;
     height: auto;
     padding: 50px 100px;
