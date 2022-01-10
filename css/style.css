@@ -201,7 +201,7 @@ body {
 }
 
 .btitle-bsub-bheading {
-    font-size: 2.35rem; /*2.65rem*/
+    font-size: 2.30rem; /*2.35rem, 2.65rem*/
     margin-top: .2rem; /*.6rem*/
     letter-spacing: .008rem;
     font-weight: 400;
@@ -209,7 +209,7 @@ body {
 }
 
 .btitle-bprice {
-    font-size: 1.7rem;
+    font-size: 1.9rem; /*1.7rem*/
     color: #cfc; /*#888*/
     margin-top: .68rem;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
@@ -373,7 +373,7 @@ body {
     }
 
     .btitle-bsub-bheading {
-        margin-left: 2rem;
+        margin-left: 2rem; /*2rem*/
     }
 
     .arrowposition {
@@ -415,7 +415,7 @@ body {
     }
 
     .btitle-bprice {
-        font-size: 1.4rem;
+        font-size: 1.6rem; /*1.4rem*/
     }
 
     .bcta {
