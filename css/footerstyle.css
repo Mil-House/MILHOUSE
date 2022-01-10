@@ -5,9 +5,25 @@ body {
     min-height: 100vh;
 }
 
+.footsupport {
+    width: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px)
+{
+    .footsupport {
+        width: 100%;
+        height: 0px;
+        padding: 10px 0px;
+        background-color: #1b1b1b;;
+    }
+}
+
 footer {
-    box-sizing: border-box; /* body_ic texapoxel em footer */
     position: relative;
+    bottom: 0; /*Aded 10.01.2022*/
+    left: 0; /*Aded 10.01.2022*/
     width: 100%;
     height: auto;
     padding: 50px 100px;
@@ -41,8 +57,19 @@ footer .fcontainer .sec h2::before {
     background: rgb(129, 94, 255); /* #ffeb3b */
 }
 
+footer .fcontainer .sec h2 .hometxtlog { /* Added 26.10.2021 */
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+footer .fcontainer .sec h2 .homelog { /* Added 26.10.2021 */
+    font-size: 3.24rem;
+}
+
 footer .fcontainer .sec p {
-    color: #fff;;
+    color: #fff;
+    padding-right: 20px;
 }
 
 .sci {
@@ -81,15 +108,26 @@ footer .fcontainer .sec p {
     position: relative;
 }
 
+.quicklinks h2 {
+    letter-spacing: 0.6px; /* Added 26.10.2021 */
+}
+
+.contact h2 {
+    letter-spacing: 0.6px; /* Added 26.10.2021 */
+}
+
 .quicklinks li {
     list-style: none;
 }
 
 .quicklinks li a {
-    color: #f7f7f7;
+    /*color: #f7f7f7;*/
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
+    color: #888;
+    cursor: default;
+    user-select: none;
 }
 
 .quicklinks li a:hover {
@@ -125,7 +163,7 @@ footer .fcontainer .sec p {
 }
 
 .copyrghtText {
-    font-size: 1.6rem;
+    font-size: 1.6rem; /*1.6rem*/
     box-sizing: border-box;
     width: 100%;
     background: #131313; /* #1f3389 */
@@ -154,5 +192,15 @@ footer .fcontainer .sec p {
 {
     footer .fcontainer {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.copbr {
+    display: none;
+}
+@media (max-width: 476px)
+{
+    .copbr {
+        display: block;
     }
 }

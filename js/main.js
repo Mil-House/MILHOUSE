@@ -8,7 +8,7 @@ selectElement('.mobile-menu').addEventListener('click', () => {
 
 function mobilemenucloseToggle(){ //remove active mobilemenu when click nav-item
     const mobiletoggleMenu = document.querySelector('header');
-    const mobileitemtoggleMenu = document.querySelector('.mobileitem');
+    //const mobileitemtoggleMenu = document.querySelector('.mobileitem');
     const minibagtoggleMenu = document.querySelector('.minibagmenu');
     mobiletoggleMenu.classList.remove("active");
     minibagtoggleMenu.classList.remove("active");
@@ -48,6 +48,26 @@ function minibagmenucloseToggle(){ //remove active minibagmenu when mobile-menu 
     }
 }
 
+//__________________________________________________________________________________________
+// if (window.matchMedia("(min-width: 768px)").matches) {}
+function myFunction(x) {
+    if (x.matches) { // Если медиа запрос совпадает
+        document.body.style.overflow = 'visible';
+    } 
+    else if (z.matches && mobiletoggleMenu.classList.contains('active')) {
+        document.body.style.overflow = 'hidden';
+    }
+    else {
+        document.body.style.overflow = 'visible';
+    }
+}
+
+const mobiletoggleMenu = document.querySelector('header');
+var x = window.matchMedia("(min-width: 768px)")
+var z = window.matchMedia("(max-width: 767px)")
+myFunction(x) // Вызов функции прослушивателя во время выполнения
+x.addListener(myFunction) // Присоединить функцию прослушивателя при изменении состояния
+//__________________________________________________________________________________________
 
 
 function bagmenuToggle(){
