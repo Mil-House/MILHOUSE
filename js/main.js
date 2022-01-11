@@ -84,7 +84,7 @@ function langmenuToggle(){
 
 
 // smooth scroll by JQuery
-$('.nav-item a').on('click', function (e) {
+$('.nav-item a, .readmore a').on('click', function (e) {
     if (this.hash !== '') {
         e.preventDefault();
 
