@@ -190,12 +190,37 @@ body {
 
 /*================ Milhouse-banner  Section ================*/
 .banner {
-    background: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium1.jpg"); /*("https://Mil-House.github.io/Mil-House/img/imagemedium.jpg");*/
+    /*background: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium1.jpg"); ("https://Mil-House.github.io/Mil-House/img/imagemedium.jpg");*/
     margin-top: 4.3rem; /*4.4 rem*/
     background-color: #1b1b1b;
 
-    animation: slide1 16s infinite;
+    /*animation: slide1 16s infinite;*/
 }
+
+/*======------ Video banner ------======*/
+.videobanner {
+    position: absolute;
+    /*top: 0;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.darkcover {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.bannercontainer {
+    position: relative;
+    z-index: 6;
+}
+/*------------===========*/
 
 .btitle {
     color: #fff;
@@ -311,20 +336,20 @@ body {
     border-bottom: .6rem solid #fff;*/
 }
 
-@keyframes slide1 { /*0%, 33%, 67% (Large)*/
+/*@keyframes slide1 { /0%, 33%, 67% (Large)/ Main Keyframes
     0%{
-        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium1.jpg"); /*https://Mil-House.github.io/Mil-House/img/imagemedium.jpg*/
+        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium1.jpg"); /https://Mil-House.github.io/Mil-House/img/imagemedium.jpg/
     }
     25%{
-        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium2.jpg"); /*https://Mil-House.github.io/Mil-House/img/imagemedium4.jpg*/
+        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium2.jpg"); /https://Mil-House.github.io/Mil-House/img/imagemedium4.jpg/
     }
     50%{
-        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium3.jpg"); /*https://Mil-House.github.io/Mil-House/img/imagemedium5.jpg*/
+        background-image: url("https://Mil-House.github.io/milimg/slideshowimg/imagemedium3.jpg"); /https://Mil-House.github.io/Mil-House/img/imagemedium5.jpg/
     }
     75%{
         background-image: url("https://Mil-House.github.io/Mil-House/img/imagemedium6.jpg");
     }
-}
+}*/
 
 /*
 @keyframes slide2 { /*0%, 33%, 67% (Medium)*//*
@@ -469,19 +494,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px;
+    padding: 50px 50px;
     border-radius: 30px;
     position: relative;
     background: transparent;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-@media screen and (max-width: 568px)
-{
-    .nmcard-w .nmcard {
-        padding: 20px 20px;
-    }
 }
 
 .nmcard-w .nmcard .nmcard__text {
@@ -682,6 +700,10 @@ body {
         padding-right: 0;
     }
 
+    .minw50 {
+        margin: 20px auto;
+    }
+
     .w50 {
         display: flex;
         align-items: center;
@@ -870,6 +892,67 @@ Banner Text ============*/
 .sgmillogo {
     font-family: 'Krona One', sans-serif;
     font-size: 2rem;
+}
+
+/*======------------------ Videoplayer ---------------======*/
+
+#embeddedVideoStats {border: 1px solid rgb(85, 91, 255); margin-top: -10px; margin-left: 20px; max-width: 90px;}
+#embeddedVideoStats #statElement:nth-child(2){visibility: hidden;}
+#embeddedVideoStats #statElement:nth-child(3){visibility: hidden;}
+
+.milvideo iframe {
+    width: 500px; /*500px*/
+    height: 281px; /*281px*/
+    border-radius: 18px;
+
+    /*box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px;
+    box-shadow: 0px -4px 4px -4px #999, 0px 10px 10px -10px #999, -20px 0px 12px -20px rgb(85, 91, 255), 20px 0px 12px -20px rgb(85, 91, 255);*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, -20px 0px 12px -22px rgb(85, 91, 255), 20px 0px 12px -22px rgb(85, 91, 255);
+}
+
+/*.videoplayer {
+    /width: 100%;/
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}*/
+
+@media (max-width: 1619px)
+{
+    .nmcard-w .nmcard {padding: 30px;}
+
+    #embeddedVideoStats{visibility: hidden;}
+
+    .milvideo {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .milvideo iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*.videoplayer {width: 100%;}*/
+}
+
+@media (max-width: 992px) 
+{
+    .nmwrapper-scnd {padding: 0 16px;}
+}
+
+@media (max-width: 568px)
+{
+    .nmcard-w .nmcard {padding: 20px;}
+}
+
+.minw50 {
+    min-width: 50%;
 }
 
 .w50 {
@@ -1322,18 +1405,18 @@ body {
     }
     
     .mobcard-mobhead {
-        font-size: 2.4rem; /*2.6rem*/
+        font-size: 2.1rem; /*2.4rem*/
         font-weight: 500;
         /*color: #0d0d0d;*/
         color: #d7dcf0;
         margin-bottom: 0.5rem;
     }
 
-    .hsubtxtbr{display: block;}
+    /*.hsubtxtbr{display: block;}*/
 
     .mobsubhead {
         display: inline-block;
-        font-size: 1.8rem;
+        font-size: 1.75rem;
         font-weight: 500;
 
         box-shadow: rgba(100, 100, 100, 0.15) 0px 2px 8px;
@@ -1344,12 +1427,12 @@ body {
     }
     
     .mobcard-mobtext {
-        font-size: 1.6rem;
+        font-size: 1.5rem; /*1.6rem*/
         letter-spacing: 0.1rem;
         line-height: 1.7;
         /*color: #3d3d3d;*/
         color: #a0a0a0;
-        margin-bottom: 2.5rem; /*visit button off (unable)*/
+        margin-bottom: 1.4rem; /*2.5rem visit button off (unable)*/
     }
 
     .atxtdec {
@@ -1359,7 +1442,7 @@ body {
     .mobcard-butn {
         display: block;
         width: 100%;
-        padding: 1.2rem; /*visit button off (unable)*/
+        padding: 0.7rem; /*0.9rem visit button off (unable)*/
         font-size: 2rem;
         text-align: center;
         color: #3363ff;
@@ -1392,6 +1475,12 @@ body {
     .mobcard-butn:active span {
         margin-left: 1.5rem;
     }
+
+    .atxtdec .mobcard-butn b {
+        position: relative; 
+        font-size: 1.9rem;
+        bottom: 3px;
+    }
 }
 
 @media (max-width: 706px)
@@ -1423,25 +1512,16 @@ body {
 {
     .mobcard-mobhead {font-size: 1.85rem;}
 
-    .hsubtxtbr{display: none;}
+    /*.hsubtxtbr{display: none;}*/
 
     .mobsubhead {
         font-size: 1.5rem;
         font-weight: 600;
-        padding: 2px 6px;
+        /*padding: 2px 6px;*/
     }
 
     .mobcard-mobtext {
         font-size: 1.4rem;
-        margin-bottom: 1.4rem;
-    }
-
-    .mobcard-butn {padding: 0.7rem;}
-
-    .atxtdec .mobcard-butn b {
-        position: relative; 
-        font-size: 1.9rem;
-        bottom: 3px;
     }
 }
 
@@ -1782,7 +1862,7 @@ table tr:nth-child(even) {
 @media screen and (max-width: 768px) 
 {
     .table {
-    display: block; 
+        display: block; 
     } 
 }
   
@@ -1810,6 +1890,9 @@ table tr:nth-child(even) {
     border-radius: 12px 12px 0 0;
     background: #FFA500; 
 }
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {background: rgb(85 91 255);}
 
 @media screen and (max-width: 768px) 
 {
@@ -1879,10 +1962,10 @@ table tr:nth-child(even) {
     } 
 }
 
-@media (orientation: portrait) and (max-width: 768px)
+/*@media (orientation: portrait) and (max-width: 767px)
 {
-    .cell {font-size: 1.8rem;}
-}
+    .mobiletable {font-size: 1.75rem;}
+}*/
 
 .mobiletable .celltbstatus {
     margin-bottom: 0px;
@@ -1926,6 +2009,13 @@ table tr:nth-child(even) {
 
 .Swipertabletxt {
     padding-bottom: 10px;
+}
+
+@media (max-width: 767px) and (orientation: portrait)
+{
+    .mobiletable {font-size: 1.75rem;}
+    .mobiletable .row {font-size: 1.75rem;}
+    .mobiletable .row .cell {font-size: 1.75rem;}
 }
 
 /*--================= Our Service Privilage =================--*/
@@ -2240,6 +2330,13 @@ table tr:nth-child(even) {
 {
     .skillcard {padding: 20px;}
     .phnum a {font-size: 1.6rem;}
+}
+
+@media (max-width: 500px)
+{
+    .work {padding: 60px 0 10px 0;} /*60px 0 60px 0*/
+    .headings__sectionpadding {padding: 0 30px 0 30px;}
+    .skillcards__sectionpadding {padding: 0 20px 0 20px;}
 }
 
 @media (max-width: 1199px)

@@ -332,15 +332,16 @@ section {
 
 /*============ Gooogle Map ============*/
 .geolocation {
-    padding: 20px 0;
+    padding: 6px 0 20px 0;
 }
 
 .geolocation p {
     text-align: center;
+    padding: 0 20px; /*0 30px*/
 }
 
 .geolocation p iframe {
-    width: 96%;
+    width: 100%; /*96%*/
     height: 200px;
     border-radius: 10px;
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px;

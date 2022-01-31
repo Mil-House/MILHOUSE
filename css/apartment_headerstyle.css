@@ -111,6 +111,13 @@ header {
     padding-left: 32px; /*46px*/
 }
 
+@supports (-webkit-touch-callout: none) { /*Added 31.01.2022*/
+    .nav-link-mil .backbtn {
+        position: relative;
+        top: -3px; /*-2px*/
+    }
+}
+
 .nav-link-mil .backbtn .fa-angle-left {
     font-size: 2rem;
 }
@@ -1193,11 +1200,28 @@ header {
     color: #f8f8f8;
     font-weight: 500;
     transition: 0.3s;
-    font-size: 1.8em;
+    font-size: 1.75rem;
+}
+
+.activity .bagmenu ul li a b {
+    display: inline-block;
+    color: #4f546c;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #a5a5a540;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0.6rem;
+    margin-left: 8px;
+    padding: 4px 6px;
+    box-shadow: inset 3px 3px 7px rgb(136 165 191 / 48%), inset -3px -3px 7px #fff;
 }
 
 .activity .bagmenu ul li:hover a {
     color: cyan;
+}
+
+.activity .bagmenu ul li:hover b {
+    color: #008080;
 }
 
 /*------- moblangmenui hamar ------*/
