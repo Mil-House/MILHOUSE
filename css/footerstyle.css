@@ -154,6 +154,9 @@ footer .fcontainer .sec p {
 .info a {
     color: #f7f7f7;
     text-decoration: none;
+    
+    position: relative; /*Added 31.01.2022*/
+    bottom: -5px;
 }
 
 .info a:hover {
