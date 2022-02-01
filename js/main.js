@@ -82,6 +82,8 @@ function langmenuToggle(){
     toggleMenu.classList.toggle('active')
 }
 
+//playsinline stop button hiden
+document.getElementById("videoplay").setAttribute("autoplay", "autoplay");
 
 // smooth scroll by JQuery  //.nav-item a
 $('.smlink a').on('click', function (e) {
