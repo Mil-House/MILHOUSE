@@ -127,6 +127,14 @@ section, footer {
 }
 
 /*======------ Video banner ------======*/
+video::-webkit-media-controls {
+	 display: none !important;
+}
+ video::-webkit-media-controls-start-playback-button {
+	 display: none !important;
+	 -webkit-appearance: none;
+}
+
 .videobanner {
     position: absolute;
     /*top: 0;*/
