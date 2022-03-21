@@ -493,3 +493,19 @@ section {
     box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #fff;
     background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
 }
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar{
+    width: 1rem;
+    background-color: #e2e2e2;
+    /*border-radius: .5rem;*/
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #b4b4b4;
+    /*border-radius: .2rem;*/
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #9f9f9f;
+}

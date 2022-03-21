@@ -118,7 +118,16 @@ footer .fcontainer .sec p {
     list-style: none;
 }
 
-.quicklinks li a {
+.quicklinks .acrive__links li a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.quicklinks .noneactive__links li a {
     /*color: #f7f7f7;*/
     text-decoration: none;
     margin-bottom: 10px;
@@ -172,6 +181,13 @@ footer .fcontainer .sec p {
     text-align: center;
     color: #fff;
 }
+
+.myname{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ltsp{letter-spacing: 1px;}
 
 /* now, make it responsive */
 @media (max-width: 991px)
