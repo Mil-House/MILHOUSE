@@ -1658,7 +1658,7 @@ table tr:nth-child(even) {
 .owl-dot {
     width: 14px;
     height: 14px;
-    background: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
     margin: 0 6px;
     border-radius: 14px;
     outline: none;
