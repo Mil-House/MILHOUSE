@@ -377,6 +377,8 @@ section, footer {
     font-size: 24px;
 }
 
+.fa-check-circle-o {color: #162A48;}
+
 /* inset */
 .nmcard.inset {
     box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #fff;
