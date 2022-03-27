@@ -236,12 +236,12 @@ body {
     align-items: center;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     display: block;
-    object-fit: cover;
-    user-select: none; /*Added 26.10.2021*/
     width: 100%;
     height: auto; /*100%*/
+    object-fit: cover;
+    user-select: none; /*Added 26.10.2021*/
 }
 
 /*.swiper-slide .small__img {
