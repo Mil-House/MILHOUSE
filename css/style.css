@@ -1763,6 +1763,13 @@ table tr:nth-child(even) {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+@media (max-width: 400px)
+{
+    .skillcard {
+        padding: 20px;
+    }
+}
+
 .skillcard.caqua {
     border-top: 5px solid hsl(180, 62%, 55%);
     margin: 0;
