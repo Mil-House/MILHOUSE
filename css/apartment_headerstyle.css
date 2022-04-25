@@ -2,17 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,200,400,500,600,700,800,900&dispaly=swap');
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 
-/*======== Global ========*/
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 10px;
-}
+/*======== Main ========*/
 
 .headerfont a {
     display: block;
@@ -123,44 +113,40 @@ header {
     font-size: 1.8rem;
 }
 
-.nav-link-mil .logo {
-    font-family: 'Krona One', sans-serif;
-    width: 1.6rem; /*?*/
-    height: 4.4rem;
-    /*text-transform: uppercase;*/
-    white-space: nowrap;
-    text-decoration: none;
-    font-weight: 900;
-    /*background: url("https://Mil-House.github.io/Mil-House/img/apple.svg") center no-repeat;*/
-    font-size: 1.6em;
-    transition: 0.4s;
-}
-
 .mil-link .logo {
+    display: inline-flex; /*added*/
     font-family: 'Krona One', sans-serif;
-    width: 1.6rem; /*?*/
-    height: 4.4rem;
-    /*text-transform: uppercase;*/
     white-space: nowrap;
+    color: #cacaca;
     text-decoration: none;
     font-weight: 900;
     /*background: url("https://Mil-House.github.io/Mil-House/img/apple.svg") center no-repeat;*/
     font-size: 1.6em;
-    transition: 0.4s;
-}
+    align-items: center;
+    column-gap: .15rem;
 
-.logo {
-    color: #111;
-
-    background: #00c3ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #c60feb, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #c60feb, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #00c3ff;
+    background: -webkit-linear-gradient(-45deg, #d2d8e2, #b8c6db); 
+    background: linear-gradient(-45deg, #d2d8e2, #b8c6db);
 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    /*text-shadow: 0 0 55px #FFFFFF;*/
+    transition: 0.4s;
+}
+
+.pkgic{
+    padding-bottom: 4px;
+    font-size: 1.1em;
+
+    background: #00c3ff;
+    background: -webkit-linear-gradient(-145deg, #09c6f9, #045de9); 
+    background: linear-gradient(-145deg, #09c6f9, #045de9);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-link-mil .logo .fa-home {
@@ -193,6 +179,7 @@ header {
 .nav-link-lang {
     width: 1.6rem;
     height: 4.4rem;
+    margin-right: 4px;
     /*background: url("https://Mil-House.github.io/Mil-House/img/search.svg") center no-repeat;*/
     background: url("https://Mil-House.github.io/Mil-House/img/translate2.png") center no-repeat;
     cursor: pointer;
@@ -263,7 +250,7 @@ header {
 
     .nav-list-mobile {
         display: flex;
-        padding: 2px 1rem;
+        padding: 0px 1rem;
     }
 
     .nav-item {
@@ -818,21 +805,6 @@ header {
 
     .action .langmenu {
         display: none;
-    }
-}
-
-@media screen and (max-width: 735px)
-{
-    .milhouse-banner {
-        background: url("https://Mil-House.github.io/Mil-House/img/iphone_11_pro_small.jpg");
-    }
-
-    .milhouse {
-        background: url("https://Mil-House.github.io/Mil-House/img/iphone_11_small.jpg");
-    }
-
-    .watch {
-        background: url("https://Mil-House.github.io/Mil-House/img/watch_small.jpg");
     }
 }
 

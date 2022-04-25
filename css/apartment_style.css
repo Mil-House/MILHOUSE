@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,200,400,500,600,700,800,900&dispaly=swap');
 
-/*======== Loader ... ========*/
-
-/*
-::-webkit-scrollbar {
-    display: none; 
+/*======== Global ========*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
 }
-*/
+
+html {
+    font-size: 10px;
+}
+
+/*======== Loader ... ========*/
 
 @keyframes load {
     0% {

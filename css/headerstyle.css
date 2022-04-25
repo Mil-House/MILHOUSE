@@ -3,17 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 
 
-/*======== Global ========*/
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 10px;
-}
+/*======== Main ========*/
 
 .headerfont a {
     display: block;
@@ -94,34 +84,36 @@ header {
     }
 }
 
-.nav-link-mil .logo {
-    font-family: 'Krona One', sans-serif;
-    width: 1.6rem;
-    height: 4.4rem;
-    white-space: nowrap;
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 1.6em;
-    transition: 0.4s;
-}
-
 .mil-link .logo {
+    display: inline-flex; /*added*/
     font-family: 'Krona One', sans-serif;
-    width: 1.6rem;
-    height: 4.4rem;
     white-space: nowrap;
+    color: #cacaca;
     text-decoration: none;
     font-weight: 900;
+    /*background: url("https://Mil-House.github.io/Mil-House/img/apple.svg") center no-repeat;*/
     font-size: 1.6em;
-    transition: 0.4s;
-}
-
-.logo {
-    color: #111;
+    align-items: center;
+    column-gap: .15rem;
 
     background: #00c3ff;
-    background: -webkit-linear-gradient(to right, #c60feb, #ffff1c, #00c3ff); 
-    background: linear-gradient(to right, #c60feb, #ffff1c, #00c3ff);   
+    background: -webkit-linear-gradient(-45deg, #d2d8e2, #b8c6db); 
+    background: linear-gradient(-45deg, #d2d8e2, #b8c6db);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: 0.4s;
+}
+
+.pkgic{
+    padding-bottom: 4px;
+    font-size: 1.1em;
+
+    background: #00c3ff;
+    background: -webkit-linear-gradient(-145deg, #09c6f9, #045de9); 
+    background: linear-gradient(-145deg, #09c6f9, #045de9);
 
     background-clip: text;
     -webkit-background-clip: text;
@@ -158,6 +150,7 @@ header {
 .nav-link-lang {
     width: 1.6rem;
     height: 4.4rem;
+    margin-right: 4px;
     background: url("https://Mil-House.github.io/Mil-House/img/translate2.png") center no-repeat;
     cursor: pointer;
 }
@@ -223,7 +216,7 @@ header {
 
     .nav-list-mobile {
         display: flex;
-        padding: 2px 1rem;   /* added from me */
+        padding: 0px 1rem;   /* added from me */
     }
 
     .nav-item {
@@ -740,21 +733,6 @@ header {
 
     .action .langmenu {
         display: none;
-    }
-}
-
-@media screen and (max-width: 735px)
-{
-    .milhouse-banner {
-        background: url("https://Mil-House.github.io/Mil-House/img/iphone_11_pro_small.jpg");
-    }
-
-    .milhouse {
-        background: url("https://Mil-House.github.io/Mil-House/img/iphone_11_small.jpg");
-    }
-
-    .watch {
-        background: url("https://Mil-House.github.io/Mil-House/img/watch_small.jpg");
     }
 }
 
