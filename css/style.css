@@ -698,13 +698,6 @@ section, footer {
     clip-path: polygon(50% 70%, 0 0%, 100% 0%);
 }
 
-@media (max-width: 426px)
-{
-    .about_txt {
-        padding: 20px 0px;
-    }
-}
-
 .contentB {
     display: flex;
     justify-content: space-between;
