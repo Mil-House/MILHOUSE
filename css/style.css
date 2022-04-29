@@ -1498,7 +1498,7 @@ table tr:nth-child(even) {
 
     font-family: 'Helvetica Neue', Helvetica, Arial;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.8rem; /*16px*/
+    font-size: 18px; /*16px | 1.8rem*/
     line-height: 22px;
     letter-spacing: 0.1rem;
     color: #454755;
