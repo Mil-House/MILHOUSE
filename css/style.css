@@ -773,10 +773,17 @@ section, footer {
     }
 }
 
+@media (max-width: 1619px) 
+{.nmwrapper-scnd {padding: 0 12vw;}} /*Added 30.04.2022*/
+
+@media (max-width: 1400px) 
+{.nmwrapper-scnd {padding: 0 6vw;}} /*Added 30.04.2022*/
+
 @media (max-width: 992px) 
-{
-    .nmwrapper-scnd {padding: 0 16px;}
-}
+{.nmwrapper-scnd {padding: 0 16px;}}
+
+@media (max-height: 480px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 16vw;}} /*Added 30.04.2022*/
+@media (max-height: 280px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 22vw;}} /*Added 30.04.2022*/
 
 @media (max-width: 568px)
 {
