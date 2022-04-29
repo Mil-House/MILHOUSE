@@ -295,7 +295,7 @@ body {
 }*/
 
 .swiper-slide .large__img {
-    max-width: 800px; /*569px*/
+    max-width: 90vh; /*569px | 800px*/
     /*max-height: 800px; /426px*/
 }
 
