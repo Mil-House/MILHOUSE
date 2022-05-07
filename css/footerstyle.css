@@ -52,7 +52,9 @@ footer .fcontainer .sec h2::before {
     left: 0;
     width: 50px;
     height: 2px;
-    background: rgb(129, 94, 255); /* #ffeb3b */
+    background: #07A3F4; /*rgb(129, 94, 255) | #ffeb3b */
+    background: -webkit-linear-gradient(to right, #09c6f9, #045de9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09c6f9, #045de9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 footer .fcontainer .sec h2 .hometxtlog { /* Added 26.10.2021 */
@@ -138,7 +140,7 @@ footer .fcontainer .sec p {
 }
 
 .quicklinks li a:hover {
-    color: rgb(129, 94, 255); /* #ffeb3b */
+    color: #07A3F4; /*#ffeb3b | rgb(129, 94, 255);*/
 }
 
 .info {
@@ -169,7 +171,7 @@ footer .fcontainer .sec p {
 }
 
 .info a:hover {
-    color: rgb(129, 94, 255); /* #ffeb3b */
+    color: #07A3F4; /*#ffeb3b | rgb(129, 94, 255);*/
 }
 
 .copyrghtText {

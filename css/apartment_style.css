@@ -220,11 +220,6 @@ body {
 
 @media screen and (max-width: 735px)
 {
-    /*.banner {
-        background: url("https://Mil-House.github.io/Mil-House/img/iphone_11_pro_small.jpg");
-        background: url("https://Mil-House.github.io/Mil-House/img/imagelarge.png");
-    }*/
-
     .hero {
         height: 40rem; /*50rem*/
         background-size: auto 54.8rem;
@@ -384,13 +379,13 @@ section {
     width: 100%; /*96%*/
     height: 200px;
     border-radius: 10px;
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px;
+    box-shadow: rgb(1, 69, 133) 0px 0px 0px 3px; /*rgb(85, 91, 255)*/
 }
 
 /*================ Progress Bar ================*/
 ::selection {
-    color: #fff;
-    background: #6665ee;
+    color: #222;
+    background: #26b1be50; /*#6665ee*/
 }
 
 .skill-bars {
@@ -465,7 +460,7 @@ section {
     border-radius: 4px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #6665ee;
+    background: #26b1be; /*#6665ee*/
     border: 2px solid rgb(1, 69, 133);
     animation: animate 3s 1s cubic-bezier(1,0,0.5,1) forwards; /*1s 1s*/
 }

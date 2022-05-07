@@ -208,7 +208,7 @@ header {
         height: 3px;
         bottom: 0;
         margin: -5px 0; /*-7px 0*/
-        background-color: rgb(129, 94, 255);
+        background-color: #0792F1; /*rgb(129, 94, 255)*/
         border-radius: 6px 6px 6px 6px;
         visibility: hidden;
         transform: scaleX(0);
@@ -447,7 +447,7 @@ header {
 
         border-radius: 10px; /*15px;*/
         margin-top: 8px; /*6px;*/
-        border-top: 3px solid rgb(129, 94, 255);
+        border-top: 3px solid #0792F1; /*rgb(129, 94, 255)*/
         border-left: 2px solid #414141;
         border-right: 2px solid #414141;
         height: 42px; /*36px;*/
@@ -466,7 +466,7 @@ header {
         background: #111;
         border-radius: 10px; /*15px;*/
         margin-top: 8px; /*6px;*/
-        border-top: 3px solid rgb(129, 94, 255);
+        border-top: 3px solid #0792F1; /*rgb(129, 94, 255)*/
         border-left: 2px solid #414141;
         border-right: 2px solid #414141;
         height: 42px; /*36px;*/
@@ -489,7 +489,7 @@ header {
         /*width: 100%;*/
         /*box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);*/
         border-radius: 10px;
-        border-bottom: 3px solid rgb(129, 94, 255);
+        border-bottom: 3px solid #0792F1; /*rgb(129, 94, 255)*/
         border-top: 2px solid #414141;
         border-left: 2px solid #414141;
         border-right: 2px solid #414141;
@@ -571,11 +571,12 @@ header {
         background: rgba( 255, 255, 255);
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 
-        box-shadow: rgba(129, 94, 255, 0.3) 0px 5px, rgba(129, 94, 255, 0.2) 0px 10px, rgba(129, 94, 255, 0.1) 0px 15px, rgba(129, 94, 255, 0.05) 0px 20px;
+        box-shadow: rgba(7, 148, 242, 0.3) 0px 5px, rgba(7, 148, 242, 0.2) 0px 10px, rgba(7, 148, 242, 0.1) 0px 15px, rgba(7, 148, 242, 0.05) 0px 20px;
+        /*box-shadow: rgba(129, 94, 255, 0.3) 0px 5px, rgba(129, 94, 255, 0.2) 0px 10px, rgba(129, 94, 255, 0.1) 0px 15px, rgba(129, 94, 255, 0.05) 0px 20px;*/
         width: 100%;
         /*box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);*/
         border-radius: 0 0 7% 7%;
-        border-bottom: 5px solid rgb(129, 94, 255);
+        border-bottom: 5px solid #0792F1; /*rgb(129, 94, 255)*/
         transition: 0.5s;
         visibility: hidden;
         opacity: 0;
@@ -673,7 +674,7 @@ header {
     
     .selectedmobline .fa-chevron-right, .fa-chevron-left { 
         font-size: 1.6rem;
-        color: rgb(129, 94, 255);
+        color: #0792F1; /*rgb(129, 94, 255)*/
     }
     
     .selectedmobline .fa-chevron-right { 
@@ -863,7 +864,7 @@ header {
     width: 140px;
     box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    border-bottom: 3px solid rgb(129, 94, 255);
+    border-bottom: 3px solid #0792F1; /*rgb(129, 94, 255)*/
     transition: 0.4s;
     visibility: hidden;
     opacity: 0;
@@ -883,8 +884,8 @@ header {
     width: 12px;
     height: 12px;
     background: #1b1b1b;
-    border-top: 2px solid rgb(129, 94, 255);
-    border-left: 2px solid rgb(129, 94, 255);
+    border-top: 2px solid #0792F1; /*rgb(129, 94, 255)*/
+    border-left: 2px solid #0792F1; /*rgb(129, 94, 255)*/
     transform: rotate(45deg);
     z-index: -1;
 }
@@ -974,7 +975,7 @@ header {
     width: 320px;
     box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    border-bottom: 3px solid rgb(129, 94, 255);
+    border-bottom: 3px solid #0792F1; /*rgb(129, 94, 255)*/
     transition: 0.5s;
     visibility: hidden;
     opacity: 0;
@@ -994,8 +995,8 @@ header {
     width: 12px;
     height: 12px;
     background: #1b1b1b;
-    border-top: 2px solid rgb(129, 94, 255);
-    border-left: 2px solid rgb(129, 94, 255);
+    border-top: 2px solid #0792F1; /*rgb(129, 94, 255)*/
+    border-left: 2px solid #0792F1; /*rgb(129, 94, 255)*/
     transform: rotate(45deg);
     z-index: -1;
 }
@@ -1038,7 +1039,7 @@ header {
 
 .selectedline .fa-chevron-right, .fa-chevron-left { 
     font-size: 1.6rem;
-    color: rgb(129, 94, 255);
+    color: #0792F1; /*rgb(129, 94, 255)*/
 }
 
 .selectedline .fa-chevron-right { 

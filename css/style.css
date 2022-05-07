@@ -62,7 +62,7 @@ html {
     font-family: 'Krona One', sans-serif;
 	animation: load 1.2s infinite 0s ease-in-out;
 	animation-direction: alternate;
-	text-shadow: 0 0 1px white;
+	text-shadow: 0 0 1px #fff;
     font-size: 6vw; /*10rem*/
     letter-spacing: 16px;
     color: #131313;
@@ -90,7 +90,7 @@ html {
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     height: 100%;
-    color: white;
+    color: #fff;
 }
 
 @media (max-width: 860px)
@@ -193,7 +193,7 @@ section, footer {
 
 .btitle-bprice {
     font-size: 1.9rem; /*1.7rem*/
-    color: #cfc; /*#888*/
+    color: #36eecc; /*#cfc | #60ddff*/
     margin-top: .68rem;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
@@ -247,8 +247,8 @@ section, footer {
     content: '';
     position: absolute;
     padding: 20px;
-    border-bottom: 2px solid rgb(141, 111, 247);
-    border-right: 2px solid rgb(141, 111, 247);
+    border-bottom: 2px solid #09c6f9; /*rgb(141, 111, 247)*/
+    border-right: 2px solid #045de9;
     border-radius: 4px;
 }
 
@@ -693,7 +693,7 @@ section, footer {
 
 /*======------------------ Videoplayer ---------------======*/
 
-#embeddedVideoStats {border: 1px solid rgb(85, 91, 255); margin-top: -10px; margin-left: 20px; max-width: 90px;}
+#embeddedVideoStats {border: 1px solid #0792F1; margin-top: -10px; margin-left: 20px; max-width: 90px;} /*rgb(85, 91, 255)*/
 #embeddedVideoStats #statElement:nth-child(2){visibility: hidden;}
 #embeddedVideoStats #statElement:nth-child(3){visibility: hidden;}
 
@@ -704,7 +704,7 @@ section, footer {
 
     /*box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px;
     box-shadow: 0px -4px 4px -4px #999, 0px 10px 10px -10px #999, -20px 0px 12px -20px rgb(85, 91, 255), 20px 0px 12px -20px rgb(85, 91, 255);*/
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, -20px 0px 12px -22px rgb(85, 91, 255), 20px 0px 12px -22px rgb(85, 91, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, -20px 0px 12px -22px #0792F1, 20px 0px 12px -22px #0792F1; /*rgb(85, 91, 255)*/
 }
 
 @media (max-width: 1619px)
@@ -1026,7 +1026,7 @@ section, footer {
 .sectionblock .icard .ibox .icontentBx div {
     transform-style: preserve-3d;
     padding: 20px;
-    background: linear-gradient(45deg, #09203F, #A890FE);
+    background: linear-gradient(45deg, #094A6E, #24B0B9); /*#09203F + #A890FE*/
     transform: translateZ(100px);
     border-radius: 8px;
 }
@@ -1058,7 +1058,7 @@ section, footer {
     padding: 0.6rem 1rem 1rem; /*visit button off (unable)*/
     font-size: 2rem;
     text-align: center;
-    color: #3363ff;
+    color: #076CB6; /*#3363ff*/
     background-color: #d8e0fd;
     border: none;
     border-radius: 12px;
@@ -1136,11 +1136,11 @@ section, footer {
     
     .mobcard img {
         border-radius: 20px 20px 0 0;
-        border-bottom: 20px solid rgb(191, 174, 255);
+        border-bottom: 20px solid #7ae2ff; /*rgb(191, 174, 255)*/
     }
     
     .mobcard-mobim {
-        border-top: 6px solid rgb(141, 111, 247);
+        border-top: 6px solid #0680EE; /*rgb(141, 111, 247)*/
         display: block;
         width: 100%;
         height: 25rem;
@@ -1191,7 +1191,7 @@ section, footer {
         padding: 0.7rem; /*0.9rem visit button off (unable)*/
         font-size: 2rem;
         text-align: center;
-        color: #3363ff;
+        color: #076CB6; /*#3363ff*/
         background-color: #d8e0fd;
         border: none;
         border-radius: 12px;
@@ -1232,7 +1232,7 @@ section, footer {
 @media (max-width: 706px)
 {
     .mobcard img {
-        border-bottom: 26px solid rgb(191, 174, 255);
+        border-bottom: 26px solid #7ae2ff; /*rgb(191, 174, 255)*/
     }
 
     .mobcard-mobim {
@@ -1320,7 +1320,7 @@ table {
 }
 
 table thead {
-    border-top: 4px solid rgba(151, 122, 255);
+    border-top: 4px solid #119BC1; /*rgba(151, 122, 255)*/
     border-radius: 20px 20px 0 0;
 }
 
@@ -1410,7 +1410,7 @@ table tr:nth-child(even) {
 @media (min-width: 769px) {
     tbody tr:hover {
         color: #1b1b1b;
-        background-color: rgba(126, 111, 207, 0.3);
+        background-color: rgba(4, 93, 233, 0.16); /*rgba(126, 111, 207, 0.3)*/
         transform: scale(1.02);
         cursor: pointer;
         transition: 0.4s;
@@ -1419,7 +1419,6 @@ table tr:nth-child(even) {
 
 @media (max-width: 768px)
 {
-
     .Btable-Bcontainer {
         display: none;
     }
@@ -1491,16 +1490,16 @@ table tr:nth-child(even) {
     
 .row.green {
     border-radius: 12px 12px 0 0;
-    background: #27ae60; 
+    background: #33B78C; /*#27ae60*/
 }
     
 .row.orange {
     border-radius: 12px 12px 0 0;
-    background: #FFA500; 
+    background: #FFBE47; /*#FFA500*/
 }
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {background: rgb(85 91 255);}
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {background: #3ABBA3;} /*rgb(85 91 255);*/
 
 @media screen and (max-width: 768px) 
 {
@@ -1653,7 +1652,7 @@ table tr:nth-child(even) {
 }
   
 .privileges-section h1 strong {
-    color: #6ab04c;
+    color: #3ABBA3; /*#6ab04c*/
     /*color: #815EFF;*/
 }
   
@@ -1668,7 +1667,7 @@ table tr:nth-child(even) {
     margin: auto;
     /*background: #ecf6ff;*/
     border-radius: 50%;
-    color: #6ab04c;
+    color: #3ABBA3; /*#6ab04c*/
     /*color: #815EFF;*/
     line-height: 60px;
     font-size: 25px;
@@ -1709,16 +1708,21 @@ table tr:nth-child(even) {
   
 .owl-dot.active {
     width: 36px;
-    background: #6ab04c !important;
+    background: #3ABBA3 !important; /*#6ab04c*/
     /*background: #815EFF !important;*/
 }
   
 .owl-dot:hover {
     width: 36px;
-    background: #6ab04c !important;
+    background: #3ABBA3 !important; /*#6ab04c*/
     /*background: #815EFF !important;*/
 }
 
+@media (max-width: 768px){
+    .privileges-section h1{
+        margin-bottom: 40px
+    }
+}
 
 /*============ Phone Number & Date ============*/
 
@@ -1769,7 +1773,7 @@ table tr:nth-child(even) {
 }
 
 .phnum a:hover {
-    color: rgb(129, 94, 255);
+    color: #045DE9; /*rgb(129, 94, 255)*/
 }
 
 /*============ Section Work ============*/
