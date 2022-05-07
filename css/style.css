@@ -109,7 +109,7 @@ html {
     }
 }
 
-@media (max-height: 860px) and (min-width: 350px)
+@media (max-width: 900px) and (orientation: landscape)
 {
     .mh img {
         width: 28%;
