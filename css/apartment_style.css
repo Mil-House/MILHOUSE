@@ -52,9 +52,6 @@ html {
 	align-items: center;
 	height: 100%;
 	margin: auto;
-/* 	width: 350px; */
-/* 	font-size:26px; */
-	/*font-family: Helvetica, sans-serif, Arial;*/
     font-family: 'Krona One', sans-serif;
 	animation: load 1.2s infinite 0s ease-in-out;
 	animation-direction: alternate;
@@ -65,8 +62,8 @@ html {
     background: #e7e5e4;
     letter-spacing: .15em;
 
-    /*text-shadow:
-    0px 3px 1px #bcbcbc, 
+    text-shadow:
+    0px 3px 1px hsl(193, 95%, 51%), 
     -1px 5px 1px #c2c2c2,
     -2px 7px 1px #c8c8c8,
     -3px 9px 1px #cbcbcb,
@@ -75,19 +72,7 @@ html {
     -6px 15px 1px #e2e2e2,
     -7px 17px 1px #e6e6e6,
     -8px 19px 1px #eaeaea,
-    -9px 21px 1px #efefef;*/
-
-    text-shadow:
-      0px 3px 1px hsl(193, 95%, 51%), 
-      -1px 5px 1px #c2c2c2,
-      -2px 7px 1px #c8c8c8,
-      -3px 9px 1px #cbcbcb,
-      -4px 11px 1px #d2d2d2,
-      -5px 13px 1px #d5d5d5, 
-      -6px 15px 1px #e2e2e2,
-      -7px 17px 1px #e6e6e6,
-      -8px 19px 1px #eaeaea,
-      -9px 21px 1px hsl(217, 97%, 46%);
+    -9px 21px 1px hsl(217, 97%, 46%);
 }
 
 .loader_bg {
