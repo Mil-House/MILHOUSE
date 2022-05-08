@@ -53,8 +53,8 @@ footer .fcontainer .sec h2::before {
     width: 50px;
     height: 2px;
     background: #07A3F4; /*rgb(129, 94, 255) | #ffeb3b */
-    background: -webkit-linear-gradient(to right, #09c6f9, #045de9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #09c6f9, #045de9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(315deg, #045de9 0%, #09c6f9 74%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 footer .fcontainer .sec h2 .hometxtlog { /* Added 26.10.2021 */

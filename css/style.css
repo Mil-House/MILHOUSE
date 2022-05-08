@@ -193,7 +193,7 @@ section, footer {
 
 .btitle-bprice {
     font-size: 1.9rem; /*1.7rem*/
-    color: #36eecc; /*#cfc | #60ddff*/
+    color: #85f9ff; /*#cfc | #60ddff | #36eecc |#09c6f9 */
     margin-top: .68rem;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
@@ -1136,11 +1136,11 @@ section, footer {
     
     .mobcard img {
         border-radius: 20px 20px 0 0;
-        border-bottom: 20px solid #7ae2ff; /*rgb(191, 174, 255)*/
+        border-bottom: 20px solid hsl(212, 86%, 64%); /*rgb(191, 174, 255) | #7ae2ff*/
     }
     
     .mobcard-mobim {
-        border-top: 6px solid #0680EE; /*rgb(141, 111, 247)*/
+        border-top: 6px solid hsl(180, 62%, 55%); /*rgb(141, 111, 247) | #0680EE | hsl(190, 70%, 70%)*/
         display: block;
         width: 100%;
         height: 25rem;
@@ -1232,7 +1232,7 @@ section, footer {
 @media (max-width: 706px)
 {
     .mobcard img {
-        border-bottom: 26px solid #7ae2ff; /*rgb(191, 174, 255)*/
+        border-bottom: 26px solid hsl(212, 86%, 64%); /*rgb(191, 174, 255) | #7ae2ff*/
     }
 
     .mobcard-mobim {
@@ -1652,8 +1652,7 @@ table tr:nth-child(even) {
 }
   
 .privileges-section h1 strong {
-    color: #3ABBA3; /*#6ab04c*/
-    /*color: #815EFF;*/
+    color: #3ABBA3; /*#815EFF | #6ab04c*/
 }
   
 .privilege {
@@ -1667,8 +1666,7 @@ table tr:nth-child(even) {
     margin: auto;
     /*background: #ecf6ff;*/
     border-radius: 50%;
-    color: #3ABBA3; /*#6ab04c*/
-    /*color: #815EFF;*/
+    color: #3ABBA3; /*#815EFF | #6ab04c*/
     line-height: 60px;
     font-size: 25px;
 

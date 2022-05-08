@@ -64,9 +64,8 @@ header {
 }
 
 .mil-link .logo:hover {
-
     text-transform: uppercase; 
-    background-image: linear-gradient(to right, rgb(132, 0, 255), #fff, rgb(255, 62, 88), gold, rgb(255, 64, 64), #00c3ff);
+    background-image: linear-gradient(to right, #8400ff, #fff, rgb(255, 62, 88), gold, rgb(255, 64, 64), #00c3ff);
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
@@ -142,7 +141,7 @@ header {
     right: 0;
     position: absolute;
     background: linear-gradient(to right, #ffff1c, #c60feb, #00c3ff 100%);
-    transition: width .5s ease 0s, right .5s ease 0s;
+    transition: width .9s ease 0s, right .5s ease 0s;
     width: 0;
 }
 /* Cool Line Effect (end) */
@@ -254,10 +253,10 @@ header {
         text-decoration: none;
         font-weight: 800;
 
-
         letter-spacing: 1px;
         text-transform: uppercase;
-        background-image: linear-gradient(to right, rgb(132, 0, 255), #fff, #fff, gold, rgb(255, 0, 0));
+        background-image: linear-gradient(to right, #3ABBA3, #fff, #fff, #09c6f9, #2075fd);
+        /*background-image: linear-gradient(to right, rgb(132, 0, 255), #fff, #fff, gold, rgb(255, 0, 0));*/
         -webkit-background-clip: text; 
         background-clip: text; 
         color: transparent;
