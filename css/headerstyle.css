@@ -337,6 +337,8 @@ header {
         position: relative;
         z-index: 1500;
     }
+    
+    .nav-link-lang {margin-right: 0px;}
 
     .nav-link-bag {
         width: 1.6rem;
