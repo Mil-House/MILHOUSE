@@ -234,6 +234,10 @@ header {
         .chrlog {
             display: none;
         }
+
+        .ioslog {
+            margin-left: 9px
+        }
         
         .phnum a {
             color: #3363ff;
@@ -337,7 +341,7 @@ header {
         position: relative;
         z-index: 1500;
     }
-    
+
     .nav-link-lang {margin-right: 0px;}
 
     .nav-link-bag {

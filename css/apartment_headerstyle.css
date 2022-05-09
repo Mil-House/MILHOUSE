@@ -265,6 +265,10 @@ header {
         .chrlog {
             display: none;
         }
+
+        .ioslog {
+            margin-left: 9px
+        }
     }
      
     @supports not (-webkit-touch-callout: none) {
