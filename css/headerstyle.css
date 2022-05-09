@@ -25,6 +25,7 @@ header {
     font-family: 'SF Pro Display', sans-serif;
     position: fixed;
     top: 0;
+    left: 0; /*added 09.05.2022*/
     z-index: 1400;
     width: 100%;
     height: 4.4rem;
