@@ -601,6 +601,30 @@ header {
     }
 
     /*--=== responsive phone width*/
+    @media (orientation: portrait) and (max-height: 700px) {
+        .operation .minibagmenu ul div { /*Added for Mobile (Added 15.05.2022)*/
+            height: 366px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+
+    @media (orientation: portrait) and (max-width: 300px) and (max-height: 700px) { /*Galaxy Fold*/
+        .operation .minibagmenu ul div {
+            height: 330px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+
+    @media (max-width: 767px) and (max-height: 560px) {
+        .operation .minibagmenu ul div { /*Added for Mobile (Added 30.10.2021)*/
+            height: 350px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+
     @media (max-width: 736px) and (max-height: 414px) {
         .operation .minibagmenu ul div { /*Added for Mobile (Added 30.10.2021)*/
             height: 224px;
@@ -903,10 +927,10 @@ header {
 .activity .bagmenu {
     position: absolute;
     top: 80px;
-    transform: translate(-318px); /* -198px */
+    transform: translate(-338px); /* -198px | -318px */
     padding: 0 20px;
     background: #1b1b1b;
-    width: 320px;
+    width: 340px;
     box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     border-bottom: 3px solid #0792F1; /*rgb(129, 94, 255)*/
