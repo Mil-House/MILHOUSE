@@ -603,7 +603,7 @@ header {
     /*--=== responsive phone width*/
     @media (orientation: portrait) and (max-height: 700px) {
         .operation .minibagmenu ul div { /*Added for Mobile (Added 15.05.2022)*/
-            height: 366px;
+            height: 356px;
             overflow: auto;
             -webkit-overflow-scrolling: touch;
         }
