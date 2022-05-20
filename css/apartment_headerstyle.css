@@ -32,6 +32,7 @@ header {
     backdrop-filter: blur(2rem);
     -webkit-backdrop-filter: blur(2rem);
     -webkit-transform: translateZ(0); /*added 20.05.2022*/
+    transform: translate3d(0,0,0); /*added 20.05.2022*/
 }
 
 .nav-list {
