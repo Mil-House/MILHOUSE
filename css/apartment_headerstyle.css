@@ -783,7 +783,7 @@ header {
     @media (max-width: 400px)
     {
         .operation .minibagmenu ul li a {
-            font-size: 1.66rem;
+            font-size: 1.6rem;
         }
     
         .operation .minibagmenu ul li a b {
