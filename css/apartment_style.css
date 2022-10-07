@@ -519,6 +519,13 @@ section {
     font-size: 1.76rem; /*1.64rem*/
     letter-spacing: 1px;
 }
+
+.card-w .card .card__text_left {
+    text-align: left;
+    color: #242630;
+    font-size: 1.76rem; /*1.64rem*/
+    letter-spacing: 1px;
+}
 /* inset */
 .card.inset {
     box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #fff;
