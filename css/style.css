@@ -1014,7 +1014,7 @@ section, footer {
     padding: 6px;
     text-align: center;
     border-radius: 8px;
-    background-color: rgba(255, 32, 32, 0.8);
+    background-color: rgba(255, 48, 48, 0.8); /*rgba(235, 57, 65, 0.8)*/
     color: #fff;
     font-size: 1.6rem;
 }
