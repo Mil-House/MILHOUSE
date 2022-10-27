@@ -1007,6 +1007,18 @@ section, footer {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.soldout {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(255, 32, 32, 0.8);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 .sectionblock .icard .ibox .icontentBx {
     position: absolute;
     top: 0;
@@ -1132,6 +1144,12 @@ section, footer {
         box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
         border-left: 3px solid #1C1B29;
         border-right: 3px solid #1C1B29;
+    }
+
+    .soldout {
+        top: 12px;
+        right: 4px;
+        border-radius: 12px;
     }
     
     .mobcard img {
