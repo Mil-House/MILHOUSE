@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 8px 8px 0; max-height: 40px" />
+  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 8px 8px 0; max-height: 40px;" />
   <span style="color: red">MILHOUSE</span>
 </h1>
 
