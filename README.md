@@ -1,7 +1,3 @@
-<html><head><style>
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-</style></head></html>
-
 <h1 align="center">
   <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 12px 8px 0; max-height: 40px" />
   <span style="font-family: 'Krona One', sans-serif;">MILHOUSE</span>
