@@ -1,4 +1,4 @@
-<h1 align="center"><img align="center" src="/assets/img/icons/webIcons/favicon-32x32.png" /> MILHOUSE</h1>
+<h1 align="center"><img align="center" src="/assets/img/icons/webIcons/favicon-32x32.png" style="padding-bottom: 10px;" /> MILHOUSE</h1>
 
 <h3 align="center">This organization does not enter into any partnership or cooperation with other companies.</h3>
 
