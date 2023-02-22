@@ -1,6 +1,6 @@
 <h1 align="center">
   MILHOUSE
-  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 0 8px 8px; max-height: 48px;" />
+  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 0 8px 8px; max-height: 57px;" />
 </h1>
 
 <h4 align="center">
