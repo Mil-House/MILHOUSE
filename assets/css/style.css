@@ -1949,3 +1949,13 @@ table tr:nth-child(even) {
 ::-webkit-scrollbar-thumb:hover{
     background-color: #9f9f9f;
 }
+
+/*========== TEXT SELECTION COLOR ==========*/
+::-moz-selection {
+    background-color: #26b1be50;
+    color: #222;
+}
+::selection {
+    background-color: #26b1be50;
+    color: #222;
+}
