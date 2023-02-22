@@ -10,7 +10,7 @@
   <br> by introducing many useful features for the clients of this company.
 </h4>
 
-<p align="center" style="color: white;">
+<p align="center" style="color: yellow;">
   ________________________________________________________________________________________________________________________________
 </p>
 
