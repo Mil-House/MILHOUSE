@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding-bottom: 8px; max-height: 40px" /> MILHOUSE
+  <img align="center" src="/assets/img/icons/webIcons/favicon-96x96.png" style="padding: 0 4px 8px 0; max-height: 40px" />MILHOUSE
 </h1>
 
 <h3 align="center">This organization does not enter into any partnership or cooperation with other companies.</h3>
