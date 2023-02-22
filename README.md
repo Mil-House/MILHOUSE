@@ -8,6 +8,6 @@
   <br>In the future, we will improve this platform by introducing many useful features for the clients of this company.
 </h4>
 
-<p align="center">________________________________________________________________________________________________________________________________</p>
+<p align="center">______________________________________________________________________________________________________________________________</p>
 
 <img align="center" src="/assets/img/other/githubIntro.png"/>
