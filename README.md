@@ -10,6 +10,6 @@
   <br> by introducing many useful features for the clients of this company.
 </h4>
 
-<p>________________________________________________________________</p>
+<p align="center">________________________________________________________________________________________________________________________________</p>
 
 <img align="center" src="/assets/img/other/githubIntro.png"/>
