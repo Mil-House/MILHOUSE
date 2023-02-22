@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  This organization does not enter into any partnership or cooperation with other companies.
+  This organization does'nt enter into any partnership or cooperation with other companies.
   <br>In the future, we will improve this platform by introducing many useful features for the clients of this company.
 </h4>
 
