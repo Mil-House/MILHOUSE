@@ -69,7 +69,7 @@ html {
     background: #e7e5e4;
     letter-spacing: .15em;
 
-    text-shadow:
+    /* text-shadow:
     0px 3px 1px hsl(193, 95%, 51%), 
     -1px 5px 1px #c2c2c2,
     -2px 7px 1px #c8c8c8,
@@ -79,7 +79,15 @@ html {
     -6px 15px 1px #e2e2e2,
     -7px 17px 1px #e6e6e6,
     -8px 19px 1px #eaeaea,
-    -9px 21px 1px hsl(217, 97%, 46%);
+    -9px 21px 1px hsl(217, 97%, 46%); */
+
+    text-shadow:
+    0px 2px 1px hsl(193, 95%, 51%), 
+    -1px 5px 1px rgb(200, 200, 200), 
+    -2px 7px 1px rgb(215, 215, 215),
+    -3px 9px 1px rgb(220, 220, 220),
+    -4px 11px 1px rgb(225, 225, 225),
+    -5px 13px 1px hsl(217, 97%, 46%);
 }
 
 .loader_bg {
