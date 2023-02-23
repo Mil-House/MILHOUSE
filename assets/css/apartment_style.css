@@ -31,11 +31,6 @@ html {
     }
 }
 
-.animate .fa {
-    font-size: 6.7vw;/*11.5rem;*/
-    z-index: 111;
-}
-
 /*skizb---------------------------------*/
 .mh {
     display: block;
@@ -61,25 +56,12 @@ html {
     color: #131313;
     background: #e7e5e4;
     letter-spacing: .15em;
-
-    /* text-shadow:
-    0px 3px 1px hsl(193, 95%, 51%), 
-    -1px 5px 1px #c2c2c2,
-    -2px 7px 1px #c8c8c8,
-    -3px 9px 1px #cbcbcb,
-    -4px 11px 1px #d2d2d2,
-    -5px 13px 1px #d5d5d5, 
-    -6px 15px 1px #e2e2e2,
-    -7px 17px 1px #e6e6e6,
-    -8px 19px 1px #eaeaea,
-    -9px 21px 1px hsl(217, 97%, 46%); */
-
     text-shadow:
     0px 2px 1px hsl(193, 95%, 51%), 
-    -1px 5px 1px rgb(200, 200, 200), 
-    -2px 7px 1px rgb(215, 215, 215),
-    -3px 9px 1px rgb(220, 220, 220),
-    -4px 11px 1px rgb(225, 225, 225),
+    -1px 5px 1px #c8c8c8, 
+    -2px 7px 1px #d7d7d7,
+    -3px 9px 1px #dcdcdc,
+    -4px 11px 1px #e1e1e1,
     -5px 13px 1px hsl(217, 97%, 46%);
 }
 
@@ -97,10 +79,6 @@ html {
 
 @media (max-width: 860px)
 {
-    .animate .fa {
-        font-size: 8.7vw;
-    }
-
     .animate {
         font-size: 8vw;
     }
@@ -114,10 +92,6 @@ html {
 
 /*@media (max-width: 699px)
 {
-    .animate .fa {
-        font-size: 6.8rem;
-    }
-
     .animate {
         font-size: 5.6rem; /*6.6rem*
     }
@@ -125,10 +99,6 @@ html {
 
 @media (max-width: 479px)
 {
-    .animate .fa {
-        font-size: 4.4rem;
-    }
-
     .animate {
         font-size: 3.8rem; /*4.4rem*
     }
@@ -136,10 +106,6 @@ html {
 
 @media (max-width: 300px)
 {
-    .animate .fa {
-        font-size: 3.5rem;
-    }
-
     .animate {
         font-size: 3.2rem; /*3.8rem*
     }

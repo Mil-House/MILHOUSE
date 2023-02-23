@@ -121,10 +121,6 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.nav-link-mil .logo .fa-home {
-    font-size: 2.7rem;
-}
-
 .decor {
     padding-right: 1px;
 }
@@ -278,12 +274,6 @@ header {
           background-position: 100%; 
         }
     }
-    
-
-    .nav-item .logo-mobile .fa-home {
-        font-size: 1.9rem; /*2.9rem  for Logo 1*/
-        font-weight: 500;
-    }
 
     .nav-item-hidden {
         display: none;
@@ -310,11 +300,13 @@ header {
     }
 
     .line-top {
-        margin-top: 3px;
+        /* margin-top: 3px; */
+        margin-top: 6px;
     }
 
     .line-bottom {
-        margin-top: -.4rem;
+        /* margin-top: -.4rem; */
+        margin-top: -6px;
     }
 
     .active .line-top {

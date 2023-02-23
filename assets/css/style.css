@@ -34,11 +34,6 @@ html {
     }
 }
 
-.animate .fa {
-    font-size: 6.7vw; /*11.5rem*/
-    z-index: 1;
-}
-
 /*skizb---------------------------------*/
 .mh {
     display: block;
@@ -68,25 +63,12 @@ html {
     color: #131313;
     background: #e7e5e4;
     letter-spacing: .15em;
-
-    /* text-shadow:
-    0px 3px 1px hsl(193, 95%, 51%), 
-    -1px 5px 1px #c2c2c2,
-    -2px 7px 1px #c8c8c8,
-    -3px 9px 1px #cbcbcb,
-    -4px 11px 1px #d2d2d2,
-    -5px 13px 1px #d5d5d5, 
-    -6px 15px 1px #e2e2e2,
-    -7px 17px 1px #e6e6e6,
-    -8px 19px 1px #eaeaea,
-    -9px 21px 1px hsl(217, 97%, 46%); */
-
     text-shadow:
     0px 2px 1px hsl(193, 95%, 51%), 
-    -1px 5px 1px rgb(200, 200, 200), 
-    -2px 7px 1px rgb(215, 215, 215),
-    -3px 9px 1px rgb(220, 220, 220),
-    -4px 11px 1px rgb(225, 225, 225),
+    -1px 5px 1px #c8c8c8, 
+    -2px 7px 1px #d7d7d7,
+    -3px 9px 1px #dcdcdc,
+    -4px 11px 1px #e1e1e1,
     -5px 13px 1px hsl(217, 97%, 46%);
 }
 
@@ -108,10 +90,6 @@ html {
         height: 50%;
     }
 
-    .animate .fa {
-        font-size: 10.7vw; /*8.8rem*/
-    }
-
     .animate {
         font-size: 10vw; /*8rem*/
     }
@@ -122,10 +100,6 @@ html {
     .mh img {
         width: 28%;
         height: 28%;
-    }
-
-    .animate .fa {
-        font-size: 8.7vw;
     }
 
     .animate {
@@ -367,8 +341,8 @@ section, footer {
 /*============ Text Neumorphizm ============*/
 
 .nmwrapper {
-    padding: 0 16px 0 0;
-    margin: 0 auto;
+    padding: 0 26px 0 0; /*0 16px 0 0*/
+    /* margin: 0 auto; */
 }
 
 .neumorphism {
@@ -401,6 +375,17 @@ section, footer {
 .nmcard__text .sg {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+}
+
+.nmcard__text p{
+    text-align: justify;
+    max-width: 800px
+}
+
+@media (max-width: 539px){
+    .nmcard__text p{
+        text-align: left;
+    }
 }
 
 .fa-check-circle-o {color: #162A48;}
@@ -523,11 +508,11 @@ section, footer {
 }
 
 /* For a design */
-@media (min-width: 992px)
+@media (max-width: 1619px)  /*(min-width: 992px)*/
 {
     /* About section padding for img */
     .contentBx {
-        padding-right: 30px;
+        padding-right: 0;
     }
 }
 
@@ -689,7 +674,7 @@ section, footer {
 
 .contentB {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /*justify-content: space-between; NORRR*/
 }
 
 .contentBx .sg { /* h3 */
@@ -762,9 +747,9 @@ section, footer {
     min-width: 50%;
 }
 
-.w50 {
+/* .w50 {
     min-width: 50%;
-}
+} */
 
 /*============ Before After Effect Photo ============*/
 
@@ -1409,6 +1394,12 @@ table tbody .str td:nth-child(5){
     font-size: 1.7rem; /* 1 rem*/
 }
 
+.tdtext_line_shadow{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px inset; 
+    border-radius: 8px;
+    padding: 3px 6px;
+}
+
 table .status {
     border-radius: 0.6rem; /*0.2rem*/
     background-color: red;
@@ -1539,7 +1530,7 @@ table tr:nth-child(even) {
         display: block; 
     }
 
-    .waitingrow { /*added from me*/
+    .waitingrow { /*for large text*/
         padding: 14px 0 4px;
     }
     
@@ -1556,7 +1547,7 @@ table tr:nth-child(even) {
         margin-bottom: 10px; 
     }
 
-    .row .waitingcell { /*added from me*/
+    .row .waitingcell { /*for large text*/
         margin-bottom: 5px;
     }
         
