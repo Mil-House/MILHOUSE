@@ -299,14 +299,26 @@ header {
         transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
     }
 
-    .line-top {
-        /* margin-top: 3px; */
-        margin-top: 6px;
+    /* iOS Safary support */
+    @supports (-webkit-touch-callout: none) {
+        /* CSS specific to iOS devices */
+        .line-top {
+            margin-top: 3px;
+        }
+        .line-bottom {
+            margin-top: -.4rem;
+        }
     }
-
-    .line-bottom {
-        /* margin-top: -.4rem; */
-        margin-top: -6px;
+     
+    /* For Google Chrome */
+    @supports not (-webkit-touch-callout: none) {
+        /* CSS for other than iOS devices */
+        .line-top {
+            margin-top: 6px;
+        }
+        .line-bottom {
+            margin-top: -6px;
+        }
     }
 
     .active .line-top {
