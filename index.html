@@ -69,8 +69,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 <body>
-
-    <!-- Web Loader -->
+    <!-- Loader -->
     <div class="loader_bg">
         <h2 class="animate loader">
             <p class="mh">
@@ -82,99 +81,36 @@
     </div>
     
 
-    <!--============ Web Header ============-->
-    <div class="headerfont">
-        <header>
-            <div class="hcontainer">
-                <nav class="nav">
-                    <ul class="nav-list nav-list-mobile">
-                        <li class="nav-item">
-                            <div class="mobile-menu" onclick="minibagmenucloseToggle()">
-                                <span class="line line-top"></span>
-                                <span class="line line-bottom"></span>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link nav-link-mil">
-                                <span class="logo-mobile">
-                                    <span class="chrlog">MILHOUSE</span>    <!--<i class="fa fa-home" aria-hidden="true"></i>-->
-                                    <span class="ioslog">MILHOUSE</span>    <!--https://Mil-House.github.io/MILHOUSE/assets/img/splashscreens/-->
-                                </span>
-                            </a> <!-- mil -->
-                        </li>
+    <!--============ HEADER ============-->
+    <header>
+        <div class="hcontainer">
+            <nav class="nav">
+                <ul class="nav-list nav-list-mobile">
+                    <li class="nav-item">
+                        <div class="mobile-menu" onclick="minibagmenucloseToggle()">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-mil">
+                            <span class="logo-mobile">
+                                <span class="chrlog">MILHOUSE</span>    <!--<i class="fa fa-home" aria-hidden="true"></i>-->
+                                <span class="ioslog">MILHOUSE</span>    <!--https://Mil-House.github.io/MILHOUSE/assets/img/splashscreens/-->
+                            </span>
+                        </a> <!-- mil -->
+                    </li>
 
-                        <!--==== Mini bag Menu ====-->
+                    <!--==== Mini bag Menu ====-->
 
-                        <li class="nav-item operation">
-                            <p onclick="minibagmenuToggle()" class="nav-link nav-link-bag"></p>
+                    <li class="nav-item operation">
+                        <p onclick="minibagmenuToggle()" class="nav-link nav-link-bag"></p>
 
-                            <div class="minibagmenu">
-                                <h3>Ընթացիք Շինարարություններ<br>
-                                <span>Մատչելի բնակարաններ <br class="minibagbr">շահավետ պայմաններով<img class="imgmap" src="assets/img/headerImg/apartIcon.png"></span></h3>
-                                <ul>
-                                    <div>
-                                        <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment1.html">Մոլդովական 12/2 <b>Նոր Նորք</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment2.html">Ավան-Առինջ <b>Ավան</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment3.html">Թբիլիսյան խճուղի 7/8 <b>Արաբկիր</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment4.html">Մինսկի 17/27 <b>Նոր Նորք</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment5.html">Մինսկի 21 <b>8-րդ Մասիվ</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment6.html">Ավան 4-րդ փողոց 13/2 <b>Ավան</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment7.html">Կոմիտաս 49/12 <b>Կոմիտաս</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment8.html">Մոլդովական 43/4 <b>Նոր Նորք</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment9.html">Մոլդովական 43/3 <b>Նոր Նորք</b></a></li>
-                                        <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment10.html">Թևոսյան 3/1 <b>4-րդ Մասիվ</b></a></li>
-                                    </div>
-                                </ul>
-                            </div>
-                        </li>
-
-                    </ul>
-                    <!-- /.nav-list nav-list-mobile -->
-                    <ul class="nav-list nav-list-larger">
-                        <li class="nav-item nav-item-hidden">
-                            <a href="/" class="mil-link nav-link-mil">
-                                <span class="logo">
-                                    <span class="pkgic">⟨︎</span>MH<span class="pkgic">⟩︎</span>
-                                </span>
-                            </a> <!-- mil -->
-                        </li>
-                        <li class="nav-item effect-one smlink"><a href="#home" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Գլխավոր</a></li>
-                        <li class="nav-item effect-one smlink"><a href="#about" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Մեր Մասին</a></li>
-                        <li class="nav-item effect-one smlink"><a href="#services" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Կառույցներ</a></li>
-                        <li class="nav-item effect-one smlink"><a href="#work" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Աշխատանք</a></li>
-                        <li class="nav-item effect-one smlink"><a href="#support" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Կապ</a></li>
-
-                        <li li class="nav-item mob_messenger">
-                            <a href="https://www.messenger.com/t/102496518146514">
-                                <div class="nav-link messcenter">
-                                    <img src="assets/img/headerImg/messenger.png"><span class="mblg_txt_hide"> Messenger</span>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li li class="nav-item mob_lang" onclick="moblangmenuToggle()">
-                            <div class="nav-link langcenter"><img src="assets/img/headerImg/translate.png"><span class="mblg_txt_hide"> Լեզուն</span> AM</div>
-
-                            <div class="moblangmenu">
-                                <ul class="nav-list nav-list">
-                                    <li><a class="ltxru" href="#">RU</a><img class="mblg_txt_hide" src="assets/img/headerImg/RU32.png"></li>
-                                    <li class="gictop"></li>
-                                    <li><a href="#">EN</a><img class="imgus mblg_txt_hide" src="assets/img/headerImg/GB32.png"></li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="nullpool"></li>
-
-                        <!--==== Bag Menu ====-->
-
-                        <li class="nav-item nav-item-hidden activity">
-                            <p onclick="bagmenuToggle()" class="nav-link nav-link-bag"></p>
-
-                            <div class="bagmenu">
-                                <h3>Ընթացիք Շինարարություններ<br>
-                                <span>Մատչելի բնակարաններ շահավետ<br>պայմաններով <img class="imgmap" src="assets/img/headerImg/apartIcon.png"> </span></h3>
-                                <ul>
+                        <div class="minibagmenu">
+                            <h3>Ընթացիք Շինարարություններ<br>
+                            <span>Մատչելի բնակարաններ <br class="minibagbr">շահավետ պայմաններով<img class="imgmap" src="assets/img/headerImg/apartIcon.png"></span></h3>
+                            <ul>
+                                <div>
                                     <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment1.html">Մոլդովական 12/2 <b>Նոր Նորք</b></a></li>
                                     <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment2.html">Ավան-Առինջ <b>Ավան</b></a></li>
                                     <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment3.html">Թբիլիսյան խճուղի 7/8 <b>Արաբկիր</b></a></li>
@@ -185,31 +121,92 @@
                                     <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment8.html">Մոլդովական 43/4 <b>Նոր Նորք</b></a></li>
                                     <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment9.html">Մոլդովական 43/3 <b>Նոր Նորք</b></a></li>
                                     <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment10.html">Թևոսյան 3/1 <b>4-րդ Մասիվ</b></a></li>
-                                </ul>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- /.nav-list nav-list-mobile -->
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                        <a href="/" class="mil-link nav-link-mil">
+                            <span class="logo">
+                                <span class="pkgic">⟨︎</span>MH<span class="pkgic">⟩︎</span>
+                            </span>
+                        </a> <!-- mil -->
+                    </li>
+                    <li class="nav-item effect-one smlink"><a href="#home" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Գլխավոր</a></li>
+                    <li class="nav-item effect-one smlink"><a href="#about" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Մեր Մասին</a></li>
+                    <li class="nav-item effect-one smlink"><a href="#services" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Կառույցներ</a></li>
+                    <li class="nav-item effect-one smlink"><a href="#work" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Աշխատանք</a></li>
+                    <li class="nav-item effect-one smlink"><a href="#support" class="nav-link mobileitem" onclick="mobilemenucloseToggle()">Կապ</a></li>
+
+                    <li li class="nav-item mob_messenger">
+                        <a href="https://www.messenger.com/t/102496518146514">
+                            <div class="nav-link messcenter">
+                                <img src="assets/img/headerImg/messenger.png"><span class="mblg_txt_hide"> Messenger</span>
                             </div>
-                        </li>
+                        </a>
+                    </li>
 
-                        <!--==== Translate Menu ====-->
+                    <li li class="nav-item mob_lang" onclick="moblangmenuToggle()">
+                        <div class="nav-link langcenter"><img src="assets/img/headerImg/translate.png"><span class="mblg_txt_hide"> Լեզուն</span> AM</div>
 
-                        <li class="nav-item nav-item-hidden action">
-                            <p onclick="langmenuToggle()" class="nav-link nav-link-lang"></p>
+                        <div class="moblangmenu">
+                            <ul class="nav-list nav-list">
+                                <li><a class="ltxru" href="#">RU</a><img class="mblg_txt_hide" src="assets/img/headerImg/RU32.png"></li>
+                                <li class="gictop"></li>
+                                <li><a href="#">EN</a><img class="imgus mblg_txt_hide" src="assets/img/headerImg/GB32.png"></li>
+                            </ul>
+                        </div>
+                    </li>
 
-                            <div class="langmenu">
-                                <h3>Ընտրեք Լեզուն<br>
-                                <span>Լեզուն AM <img class="imgam" src="assets/img/headerImg/AM24.png"> </span></h3>
-                                <ul>
-                                    <li><a href="#">Русский RU</a><img class="imgru" src="assets/img/headerImg/RU32.png"></li>
-                                    <li><a href="#">English EN</a><img src="assets/img/headerImg/GB32.png"></li>
-                                </ul>
-                            </div>
-                        </li>
-                        
-                    </ul>
+                    <li class="nullpool"></li>
+
+                    <!--==== Bag Menu ====-->
+
+                    <li class="nav-item nav-item-hidden activity">
+                        <p onclick="bagmenuToggle()" class="nav-link nav-link-bag"></p>
+
+                        <div class="bagmenu">
+                            <h3>Ընթացիք Շինարարություններ<br>
+                            <span>Մատչելի բնակարաններ շահավետ<br>պայմաններով <img class="imgmap" src="assets/img/headerImg/apartIcon.png"> </span></h3>
+                            <ul>
+                                <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment1.html">Մոլդովական 12/2 <b>Նոր Նորք</b></a></li>
+                                <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment2.html">Ավան-Առինջ <b>Ավան</b></a></li>
+                                <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment3.html">Թբիլիսյան խճուղի 7/8 <b>Արաբկիր</b></a></li>
+                                <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment4.html">Մինսկի 17/27 <b>Նոր Նորք</b></a></li>
+                                <li><img src="assets/img/headerImg/apartSale.png"><a href="apartments/apartment5.html">Մինսկի 21 <b>8-րդ Մասիվ</b></a></li>
+                                <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment6.html">Ավան 4-րդ փողոց 13/2 <b>Ավան</b></a></li>
+                                <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment7.html">Կոմիտաս 49/12 <b>Կոմիտաս</b></a></li>
+                                <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment8.html">Մոլդովական 43/4 <b>Նոր Նորք</b></a></li>
+                                <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment9.html">Մոլդովական 43/3 <b>Նոր Նորք</b></a></li>
+                                <li><img src="assets/img/headerImg/apartNotSale.png"><a href="apartments/apartment10.html">Թևոսյան 3/1 <b>4-րդ Մասիվ</b></a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!--==== Translate Menu ====-->
+
+                    <li class="nav-item nav-item-hidden action">
+                        <p onclick="langmenuToggle()" class="nav-link nav-link-lang"></p>
+
+                        <div class="langmenu">
+                            <h3>Ընտրեք Լեզուն<br>
+                            <span>Լեզուն AM <img class="imgam" src="assets/img/headerImg/AM24.png"> </span></h3>
+                            <ul>
+                                <li><a href="#">Русский RU</a><img class="imgru" src="assets/img/headerImg/RU32.png"></li>
+                                <li><a href="#">English EN</a><img src="assets/img/headerImg/GB32.png"></li>
+                            </ul>
+                        </div>
+                    </li>
                     
-                </nav>
-            </div>
-        </header>
-    </div>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
     <!--============ Header end ============-->
 
     <div class="main">
@@ -1455,80 +1452,80 @@
             </div>
 
         </section> <!--================ section 4 prcav ================-->
+    </div>    
+    <!--================ section 5 prcav ================-->
 
-        <!--================ section 5 prcav ================-->
+    <div class="footsupport" id="support"></div>
 
-        <div class="footsupport" id="support"></div>
-
-        <!--============ Web Footer ============-->
-        <footer>
-            <div class="fcontainer">
-                <div class="sec aboutus">
-                    <h2><span class="hometxtlog">MILHOUSE</span></h2> <!--About Us-->
-                    <p>Մատչելի և հասանելի բնակարաններ յուրաքանչյուր գնորդի համար,
-                        ավելի քան 12 տարվա փորձ շինարարության և անշարժ գույքի ոլորտում,
-                        հոգատար և բարեհամբյուր սպասարկում յուրաքանչյուր գնորդի նկատմամբ։
-                    </p>
-                    <ul class="sci">
-                        <li><a href="https://www.facebook.com/MIL-HOUSE-102496518146514/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://t.me/milhouseoffbot"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC-16WHxc7d9pL4Q7HigfpBA/featured"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="sec quicklinks">
-                    <h2>Արագ հղումներ</h2> <!--Quick Links-->
-                    <ul class="acrive__links smlink">
-                        <li><a href="#home">Գլխավոր</a></li>
-                        <li><a href="#about">Մեր Մասին</a></li>
-                        <li><a href="#services">Կառույցներ</a></li>
-                        <li><a href="#work">Աշխատանք</a></li>
-                        <!--<li><a>Կապ</a></li>
-                        <li><a>Other</a></li>-->
-                    </ul>
-                </div>
-                <div class="sec quicklinks">
-                    <h2>Գնումներ</h2> <!--Shop-->
-                    <ul class="noneactive__links">
-                        <li><a>About</a></li>
-                        <li><a>I-beam</a></li>
-                        <li><a>Buildings</a></li>
-                        <li><a>Renovation</a></li>
-                        <li><a>Precent</a></li>
-                        <li><a>Other</a></li>
-                    </ul>
-                </div>
-                <div class="sec contact">
-                    <h2>Կապվեք մեզ հետ</h2> <!--Contact Us-->
-                    <ul class="info">
-                        <li>
-                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                            <span>Կոմիտաս 49/12<br>
-                            Երևան, <!--Հայփոստ № 0051,<br>-->Հայաստան</span>
-                        </li>
-                        <li>
-                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-                            <p><a href="tel:+37444255225">+374 44 255 225</a><br> <!-- tel:+... # -->
-                            <a href="#"><!--havelyal heraxosahamar--></a></p> <!-- tel:+... # -->
-                        </li>
-                        <li>
-                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                            <p><a href="mailto:milhouse.off@gmail.com">milhouse.off@gmail.com</a></p> <!-- mailto:+ # -->
-                        </li>
-                    </ul>
-                </div>
-
+    <!--============ FOOTER ============-->
+    <footer>
+        <div class="fcontainer">
+            <div class="sec aboutus">
+                <h2><span class="hometxtlog">MILHOUSE</span></h2> <!--About Us-->
+                <p>Մատչելի և հասանելի բնակարաններ յուրաքանչյուր գնորդի համար,
+                    ավելի քան 12 տարվա փորձ շինարարության և անշարժ գույքի ոլորտում,
+                    հոգատար և բարեհամբյուր սպասարկում յուրաքանչյուր գնորդի նկատմամբ։
+                </p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/MIL-HOUSE-102496518146514/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://t.me/milhouseoffbot"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC-16WHxc7d9pL4Q7HigfpBA/featured"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
             </div>
-        </footer>
-        <div class="copyrghtText">
-            <p>Copyright © 2023.
-                <br class="copbr"> Created by 
-                <span class="ltsp"><span class="myname">Λ</span>LB<span class="myname">Ξ</span>RT.</span>
-                <br class="copbr"> All Rights Reserved.
-            </p>
+
+            <div class="sec quicklinks">
+                <h2>Արագ հղումներ</h2> <!--Quick Links-->
+                <ul class="acrive__links smlink">
+                    <li><a href="#home">Գլխավոր</a></li>
+                    <li><a href="#about">Մեր Մասին</a></li>
+                    <li><a href="#services">Կառույցներ</a></li>
+                    <li><a href="#work">Աշխատանք</a></li>
+                    <!--<li><a>Կապ</a></li>
+                    <li><a>Other</a></li>-->
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Գնումներ</h2> <!--Shop-->
+                <ul class="noneactive__links">
+                    <li><a>About</a></li>
+                    <li><a>I-beam</a></li>
+                    <li><a>Buildings</a></li>
+                    <li><a>Renovation</a></li>
+                    <li><a>Precent</a></li>
+                    <li><a>Other</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Կապվեք մեզ հետ</h2> <!--Contact Us-->
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>Կոմիտաս 49/12<br>
+                        Երևան, <!--Հայփոստ № 0051,<br>-->Հայաստան</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="tel:+37444255225">+374 44 255 225</a><br> <!-- tel:+... # -->
+                        <a href="#"><!--havelyal heraxosahamar--></a></p> <!-- tel:+... # -->
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:milhouse.off@gmail.com">milhouse.off@gmail.com</a></p> <!-- mailto:+ # -->
+                    </li>
+                </ul>
+            </div>
+
         </div>
+    </footer>
+    <div class="copyrghtText">
+        <p>Copyright © 2023.
+            <br class="copbr"> Created by 
+            <span class="ltsp"><span class="myname">Λ</span>LB<span class="myname">Ξ</span>RT.</span>
+            <br class="copbr"> All Rights Reserved.
+        </p>
     </div>
+    
 
     <!-- Swiper JS (For BuildingsTable) -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
