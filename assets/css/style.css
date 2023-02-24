@@ -80,7 +80,13 @@ html {
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: #ffffff;
+
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 860px)
@@ -123,6 +129,11 @@ section, footer {
     margin-top: 4.3rem; /*4.4 rem*/
     background-color: #1b1b1b;
 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     /*animation: slide1 16s infinite;*/
 }
 
@@ -155,6 +166,7 @@ section, footer {
     color: #fff;
     text-align: center;
     padding-top: 24rem; /*5.5rem*/
+    pointer-events: none;
 }
 
 .btitle-bheading {
@@ -379,7 +391,7 @@ section, footer {
 
 .nmcard__text p{
     text-align: justify;
-    max-width: 800px
+    max-width: 800px;
 }
 
 @media (max-width: 539px){
@@ -727,16 +739,16 @@ section, footer {
 }
 
 @media (max-width: 1619px) 
-{.nmwrapper-scnd {padding: 0 12vw;}} /*Added 30.04.2022*/
+{.nmwrapper-scnd {padding: 0 18vw;}} /*Added 30.04.2022*/ /*0 12vw*/
 
-@media (max-width: 1400px) 
-{.nmwrapper-scnd {padding: 0 6vw;}} /*Added 30.04.2022*/
+/*@media (max-width: 1400px) 
+{.nmwrapper-scnd {padding: 0 6vw;}} /Added 30.04.2022/ /0 6vw*/
 
-@media (max-width: 992px) 
+@media (max-width: 991px) 
 {.nmwrapper-scnd {padding: 0 16px;}}
 
-@media (max-height: 480px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 16vw;}} /*Added 30.04.2022*/
-@media (max-height: 280px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 22vw;}} /*Added 30.04.2022*/
+/*@media (max-height: 480px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 16vw;}} /Added 30.04.2022*/
+/*@media (max-height: 280px) and (orientation: landscape){.nmwrapper-scnd {padding: 0 22vw;}} /Added 30.04.2022*/
 
 @media (max-width: 568px)
 {
@@ -987,6 +999,12 @@ section, footer {
     left: 0;
     width: 100%;
     height: 100%;
+
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .sectionblock .icard:hover .ibox {
@@ -1042,17 +1060,21 @@ section, footer {
 
 .sectionblock .icard .ibox .icontentBx div h2 {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
+    padding-bottom: 12px;
 }
 
 .sectionblock .icard .ibox .icontentBx div h2 .hsubtxt {
-    font-size: 16px;
+    padding: 4px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px 0px inset;
 }
 
 .sectionblock .icard .ibox .icontentBx div p {
     color: #fff;
-    font-size: 16px
+    font-size: 15px;
 }
 
 /*============ Visit Button ===========*/
@@ -1161,6 +1183,12 @@ section, footer {
         height: 25rem;
         object-fit: cover;
         clip-path: polygon(0 0,100% 0, 100% 90%, 0 100%);
+
+        pointer-events: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     
     .mobcard-mobcontent {
@@ -1266,7 +1294,6 @@ section, footer {
 {
     .mobcard-mobhead {font-size: 1.85rem;}
 
-
     .mobsubhead {
         font-size: 1.5rem;
         font-weight: 600;
@@ -1332,6 +1359,7 @@ table {
     font-size: 1.5rem; /*0.9rem*/
     /* padding: 0 4% 0.5% 4%;   /    0 2% 0 2% */
     padding: 0 100px 10px 100px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -1438,8 +1466,8 @@ table tr:nth-child(even) {
 @media (min-width: 769px) {
     tbody tr:hover {
         color: #1b1b1b;
-        background-color: rgba(4, 93, 233, 0.16); /*rgba(126, 111, 207, 0.3)*/
-        transform: scale(1.02);
+        background-color: rgba(4, 93, 233, 0.16);
+        transform: scale(1.01);
         cursor: pointer;
         transition: 0.4s;
     }
@@ -1656,7 +1684,7 @@ table tr:nth-child(even) {
     /*background: #e8e8e8;*/
     background-color: rgb(238, 242, 243);
     box-sizing: border-box;
-    min-height: 50vh;
+    /* min-height: 50vh; */
     display: flex;
     align-items: center;
 }
@@ -1959,9 +1987,7 @@ table tr:nth-child(even) {
 /*========== TEXT SELECTION COLOR ==========*/
 ::-moz-selection {
     background-color: #26b1be50;
-    color: #222;
 }
 ::selection {
     background-color: #26b1be50;
-    color: #222;
 }

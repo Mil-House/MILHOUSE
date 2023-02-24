@@ -36,6 +36,8 @@ footer .fcontainer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 footer .fcontainer .sec h2 {
@@ -66,6 +68,7 @@ footer .fcontainer .sec h2 .hometxtlog { /* Added 26.10.2021 */
 footer .fcontainer .sec p {
     color: #fff;
     padding-right: 20px;
+    max-width: 600px;
 }
 
 .sci {
@@ -171,20 +174,15 @@ footer .fcontainer .sec p {
 }
 
 .copyrghtText {
-    font-size: 1.6rem; /*1.6rem*/
+    font-size: 1.5rem;
     box-sizing: border-box;
     width: 100%;
-    background: #131313; /* #1f3389 */
+    background-color: #131313; /* #1f3389 */
     padding: 8px 100px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
-
-.myname{
-    font-size: 15px;
-    font-weight: 600;
-}
-
+.myname{font-weight: 600;}
 .ltsp{letter-spacing: 1px;}
 
 /* now, make it responsive */

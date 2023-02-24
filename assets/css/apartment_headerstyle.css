@@ -17,6 +17,11 @@
     max-width: 98rem;
     margin: 0 auto;
     padding: 0 2.2rem;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /*======== Web Header ========*/
