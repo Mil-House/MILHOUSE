@@ -5,11 +5,6 @@
 
 /*======== Main ========*/
 
-.headerfont a {
-    display: block;
-    text-decoration: none;
-}
-
 .amenaskizb {
     height: 0.1rem;
 }
@@ -37,6 +32,11 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2rem);
     -webkit-backdrop-filter: blur(2rem);
+}
+
+header a{
+    display: block;
+    text-decoration: none;
 }
 
 .nav-list {
