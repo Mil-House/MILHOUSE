@@ -542,7 +542,10 @@ header {
     /*============ Mobile bag Menu (Start) ============*/
 
     .nav-link-bag {
-        background: url("/assets/img/headerImg/bag.svg") center no-repeat;
+        background: url("/assets/img/headerImg/mobaplist.svg") center no-repeat;
+        filter: brightness(0) invert(1);
+        width: 19px;
+        height: 19px;
     }
 
     .operation .minibagmenu {
